@@ -1,0 +1,88 @@
+body {
+  font-size: 18px;
+  color: #494949;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  padding: 120px 0px;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #A0A0A0
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-image: linear-gradient(rgb(168, 181, 173), rgb(168, 181, 173));
+}
+
+.link-medium {
+  background-image: linear-gradient(rgb(233, 253, 240), rgb(233, 253, 240));
+  color: #636363;
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@media (max-width: 2400px) {
+  .container {
+    width: 800px;
+    margin: 50px auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 800px;
+    margin: 50px auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+    margin: 50px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+    margin: 50px auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
+    margin: 50px auto;
+  }
+}
